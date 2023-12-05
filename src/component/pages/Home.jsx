@@ -18,7 +18,7 @@ const Home = () => {
           <Skulpic/>
         </div>
         <div>
-            <div className='flex flex-row justify-center m-4 '>
+            <div className='flex flex-row justify-center m-2 '>
                 <Vision/>
                 <Mission/>
                 <Admision/>
