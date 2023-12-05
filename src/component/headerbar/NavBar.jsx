@@ -6,7 +6,7 @@ const NavBar = () => {
     <div>
         <div>
             <div className='flex text-black justify-between'>
-                <div className='skul-name py-2 text-2xl text-blue-800 font-serif mx-4'>
+                <div className='skul-name py-2 text-2xl text-blue-800 font-serif px-10'>
                     <p>FODATOP SCHOOL</p>
                 </div>
                 <div className='nav-bar flex '>
