@@ -37,6 +37,30 @@ const Gallery = () => {
                     />
                 </div>
 
+                 <div className='flex flex-row m-3 p-5 shadow-lg gap-x-5 '>
+                    <GalleryProp
+                      pic1= {<img src={schoolpic} alt="schoolpic"/>}
+                    />
+                     <GalleryProp
+                      pic2={<img src={schoolpic2} alt="schoolpic"/>}
+                    />
+                     <GalleryProp
+                      pic3={<img src={schoolpic2} alt="schoolpic" />}
+                    />
+                </div>
+
+                 <div className='flex flex-row m-3 p-5 shadow-lg gap-x-5 '>
+                    <GalleryProp
+                      pic1= {<img src={schoolpic} alt="schoolpic"/>}
+                    />
+                     <GalleryProp
+                      pic2={<img src={schoolpic2} alt="schoolpic"/>}
+                    />
+                     <GalleryProp
+                      pic3={<img src={schoolpic2} alt="schoolpic" />}
+                    />
+                </div>
+
                
             </div>
         </div>
