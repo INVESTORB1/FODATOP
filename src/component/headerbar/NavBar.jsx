@@ -11,7 +11,7 @@ const NavBar = () => {
                 </div>
                 <div className='nav-bar flex '>
                     <ul className=' flex-row py-2 hidden sm:flex   '>
-                    <Link to={'/home'}><li className='px-3 hover:bg-blue-900 transition-colors duration-300 ease-in-out' >HOME</li></Link>
+                    <Link to={'/'}><li className='px-3 hover:bg-blue-900 transition-colors duration-300 ease-in-out' >HOME</li></Link>
                     <Link to={'/about'}><li className='px-3 hover:bg-blue-900 transition-colors duration-300 ease-in-out'>ABOUT</li></Link>  
                     <Link to={'/admission'}><li className='px-3 hover:bg-blue-900 transition-colors duration-300 ease-in-out'>ADMISSION</li></Link>  
                     <Link to={'/fodatop'}><li className='px-3 hover:bg-blue-900 transition-colors duration-300 ease-in-out'>FODATOP SCHOOL</li></Link>  
